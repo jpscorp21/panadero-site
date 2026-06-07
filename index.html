@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Panadero | Panadería artesanal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img src="assets/el-panadero-logo.svg" alt="El Panadero" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" data-nav>
+        <a href="#productos">Productos</a>
+        <a href="#favoritos">Favoritos</a>
+        <a href="#pedidos">Pedidos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Panadería fresca todos los días</p>
+          <h1 id="hero-title">El Panadero</h1>
+          <p class="hero-copy">
+            Pan, coquito, galleta y horneados caseros hechos para acompañar el desayuno, la merienda y esos antojos de siempre.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://wa.me/595981451656" target="_blank" rel="noreferrer">Pedir por WhatsApp</a>
+            <a class="button secondary" href="#productos">Ver productos</a>
+          </div>
+        </div>
+        <div class="delivery-badge" aria-label="Delivery gratis">
+          <span>delivery</span>
+          <strong>gratis</strong>
+        </div>
+      </section>
+
+      <section class="section intro" aria-label="Resumen de la panadería">
+        <div class="intro-item">
+          <strong>Horneado diario</strong>
+          <span>Pan fresco, crocante y listo desde temprano.</span>
+        </div>
+        <div class="intro-item">
+          <strong>Sabores de casa</strong>
+          <span>Coquito, galletas y dulces para compartir.</span>
+        </div>
+        <div class="intro-item">
+          <strong>Pedidos rápidos</strong>
+          <span>Consultá disponibilidad y delivery por WhatsApp.</span>
+        </div>
+      </section>
+
+      <section class="section products" id="productos" aria-labelledby="products-title">
+        <div class="section-heading">
+          <p class="eyebrow">Nuestra mesa</p>
+          <h2 id="products-title">Productos recién hechos</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-visual bread" aria-hidden="true"></div>
+            <div>
+              <h3>Pan fresco</h3>
+              <p>Clásicos para el desayuno, sándwiches y la mesa familiar.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-visual coquito" aria-hidden="true"></div>
+            <div>
+              <h3>Coquito</h3>
+              <p>Dorado, dulce y perfecto para acompañar tereré, café o cocido.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-visual cookie" aria-hidden="true"></div>
+            <div>
+              <h3>Galleta</h3>
+              <p>Textura casera, sabor suave y porciones listas para compartir.</p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-visual assorted" aria-hidden="true"></div>
+            <div>
+              <h3>Y mucho más</h3>
+              <p>Consultá por dulces, salados y opciones disponibles del día.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature" id="favoritos" aria-labelledby="favorite-title">
+        <div class="feature-copy">
+          <p class="eyebrow">Favoritos del día</p>
+          <h2 id="favorite-title">Elegí, reservá y pasá a buscar</h2>
+          <p>
+            Armamos pedidos para meriendas, reuniones y compras de último minuto. El sabor de panadería de barrio, con atención cercana y productos hechos con cariño.
+          </p>
+          <a class="text-link" href="#pedidos">Consultar pedido</a>
+        </div>
+        <div class="feature-panel" aria-label="Lista de favoritos">
+          <button class="favorite active" type="button" data-product="Pan fresco">Pan fresco</button>
+          <button class="favorite" type="button" data-product="Coquito">Coquito</button>
+          <button class="favorite" type="button" data-product="Galleta">Galleta</button>
+          <p data-favorite-copy>Pan fresco seleccionado para llevar calentito.</p>
+        </div>
+      </section>
+
+      <section class="section order" id="pedidos" aria-labelledby="order-title">
+        <div class="order-card">
+          <div>
+            <p class="eyebrow">Delivery gratis</p>
+            <h2 id="order-title">Hacé tu pedido al (0981) 451 656</h2>
+            <p>También podés escribirnos por Instagram o Facebook para consultar precios, combos y disponibilidad del día.</p>
+          </div>
+          <a class="button primary" href="https://wa.me/595981451656" target="_blank" rel="noreferrer">Enviar mensaje</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+      <div>
+        <img src="assets/el-panadero-logo.svg" alt="El Panadero" />
+        <p>Panadería, coquitos, galletas y horneados para todos los días.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://wa.me/595981451656" target="_blank" rel="noreferrer">WhatsApp</a>
+        <a href="#inicio">Volver arriba</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

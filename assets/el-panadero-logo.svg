@@ -1,0 +1,19 @@
+<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">El Panadero</title>
+  <desc id="desc">Logo de El Panadero con colores marrón, amarillo y naranja.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#241409" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <path d="M114 96c52-38 92-37 120-13 29 25 68 32 126 6 46-20 90-21 129 3v60H31V92c27 19 55 20 83 4Z" fill="#C55F11"/>
+  <path d="M31 99c50 24 88 23 128-1 34-20 61-17 93 6 46 33 98 19 139-2 36-18 64-15 98 7v22c-40-27-69-29-106-10-50 26-102 35-149 1-28-21-48-22-79-4-41 24-80 27-124 7V99Z" fill="#16242A"/>
+  <g filter="url(#shadow)">
+    <text x="34" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="900" fill="#5C2F12" stroke="#FFF8EE" stroke-width="5" paint-order="stroke" transform="rotate(-8 34 104)">El</text>
+    <text x="110" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="900" fill="#5C2F12" stroke="#FFF8EE" stroke-width="5" paint-order="stroke" transform="rotate(-5 110 106)">Panadero</text>
+  </g>
+  <path d="M128 28c38-8 67 2 86 30-21 1-43 8-64 22-19 12-40 16-64 12 5-34 19-55 42-64Z" fill="#F4DC28" stroke="#241409" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M100 88c3-38 18-61 45-70" stroke="#241409" stroke-width="10" stroke-linecap="round"/>
+  <path d="M151 36c8 3 15 7 22 13M130 43c8 1 16 4 23 8M116 61c8 1 15 3 22 7M99 79c9 1 17 2 25 5" stroke="#241409" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="488" cy="130" r="14" fill="#F28A36"/>
+</svg>
