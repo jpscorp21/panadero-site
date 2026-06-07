@@ -5,9 +5,9 @@ const favorites = document.querySelectorAll("[data-product]");
 const favoriteCopy = document.querySelector("[data-favorite-copy]");
 
 const favoriteMessages = {
-  "Pan fresco": "Pan fresco seleccionado para llevar calentito.",
-  Coquito: "Coquito seleccionado para compartir en la merienda.",
-  Galleta: "Galleta seleccionada para acompañar café o cocido."
+  "Pan fresco": "Pan fresco para llevar calentito antes de que se enfríe.",
+  Coquito: "Coquito dorado para una merienda que desaparece rápido.",
+  Galleta: "Galleta casera para acompañar café, cocido o ese antojo de la tarde."
 };
 
 function updateHeader() {
